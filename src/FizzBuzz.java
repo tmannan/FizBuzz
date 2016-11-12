@@ -6,16 +6,21 @@ public class FizzBuzz {
 		for (int count = 1;count <= 100;count++)
 		{
 			if ((count%3 == 0) && (count%5 == 0))
-				System.out.println("FizzBuzz: " + count);
+				print("FizzBuzz: " + count);
 			else if (count%3 == 0)
-				System.out.println("Fizz: " + count);
+				print("Fizz: " + count);
 			else if (count%5 == 0)
-				System.out.println("Buzz: " + count);
+				print("Buzz: " + count);
 			else
-				System.out.println("count: " + count);
-				
+				print("count: " + count);		
 		}
-
 	}
+
+
+
+private static void print(String toPrint)
+{
+	System.out.println(toPrint);
+}
 
 }
