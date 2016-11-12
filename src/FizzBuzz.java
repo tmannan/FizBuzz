@@ -6,11 +6,11 @@ public class FizzBuzz {
 		for (int count = 1;count <= 100;count++)
 		{
 			if ((count%3 == 0) && (count%5 == 0))
-				print("FizzBuzz: " + count);
+				print("FizzBuzz");
 			else if (count%3 == 0)
-				print("Fizz: " + count);
+				print("Fizz");
 			else if (count%5 == 0)
-				print("Buzz: " + count);
+				print("Buzz");
 			else
 				print(Integer.toString(count));
 			
