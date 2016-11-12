@@ -12,7 +12,8 @@ public class FizzBuzz {
 			else if (count%5 == 0)
 				print("Buzz: " + count);
 			else
-				print("count: " + count);		
+				print(Integer.toString(count));
+			
 		}
 	}
 
